@@ -3930,6 +3930,13 @@ background-color: #2a254e;
         margin-top: 170px !important;
     }
 }
+
+@media (max-width: 414px) {
+   
+    .mean-bar{
+        margin-top: 175px !important;
+    }
+}
 /**
  * 5. - SECTION
  * -----------------------------------------------------------------------------
