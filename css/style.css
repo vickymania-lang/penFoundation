@@ -3857,12 +3857,79 @@ background-color: #2a254e;
         /*background-color: $white;*/
     }
     
-    .header-1 .navbar-main .navbar-brand {
+    /* .header-1 .navbar-main .navbar-brand {
         position: relative;
         top: 0;
+    } */
+    .d-lg-block{
+        display: block !important;
+    }
+    .d-lg-block .col-sm-6{
+        display: flex;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .mean-bar{
+        margin-top: 175px !important;
+    }
+    .d-lg-block .col-sm-6 .d-flex{
+        display: block !important;
+        justify-content: center;
+    }
+    .col-sm-6 .child_login a{
+        margin-left: 70px;
+        margin-bottom: 20px;
     }
 }
 
+@media (max-width: 912px) {
+   
+        .mean-bar{
+            margin-top: 55px !important;
+        }
+}
+
+@media (max-width: 375px) {
+   
+    .mean-bar{
+        margin-top: 155px !important;
+    }
+}
+
+@media (max-width: 414px) {
+   
+    .mean-bar{
+        margin-top: 155px !important;
+    }
+}
+
+@media (max-width: 820px) {
+   
+    .mean-bar{
+        margin-top: 63px !important;
+    }
+}
+
+@media (max-width: 540px) {
+   
+    .mean-bar{
+        margin-top: 100px !important;
+    }
+}
+
+@media (max-width: 280px) {
+   
+    .mean-bar{
+        margin-top: 190px !important;
+    }
+}
+
+@media (max-width: 412px) {
+   
+    .mean-bar{
+        margin-top: 170px !important;
+    }
+}
 /**
  * 5. - SECTION
  * -----------------------------------------------------------------------------
